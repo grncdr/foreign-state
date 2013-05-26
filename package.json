@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "deep-copy": "~1.0.0",
+    "amdefine": "0.0.5"
   },
   "devDependencies": {
     "localStorage": "~1.0.2",
@@ -31,10 +32,10 @@
       "iphone/6.0",
       "ipad/6.0",
       "safari/6.0",
-      "android-browser/4.2"
+      "android-browser/4.2",
       "firefox/nightly",
       "opera/next",
-      "chrome/canary",
+      "chrome/canary"
     ]
   },
   "repository": "https://github.com/grncdr/foreign-state.git",

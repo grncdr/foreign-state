@@ -8,7 +8,7 @@ Attach hidden state to arbitrary objects in JavaScript (like jQuery.data() witho
 ## Motivation
 
 One thing that can be quite annoying with JavaScript is that objects can only be keyed on
-strings. While this will be mostly addressed by Harmony WeakMaps, this gist shows a method
+strings. While this will be mostly addressed by Harmony WeakMaps, foreign-state is a method
 for tracking hidden object state that can be used on all browsers today.†
 
 The basic idea is that the "tracker" object adds a guarded, non-enumerable getter to the

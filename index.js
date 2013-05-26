@@ -3,6 +3,9 @@ module.exports = Tracker;
 var deepCopy = require('deep-copy');
 
 function Tracker(hiddenPropertyName) {
+  if (!(this instanceof Tracker)) {
+    return new Tracker(hiddenPropertyName);
+  }
   // A unique sentinel value used to guard access to hidden state
   var key = function () {};
   
